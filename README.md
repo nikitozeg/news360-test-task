@@ -2,16 +2,16 @@
 [maven]: http://maven.apache.org/
 [java]: https://www.java.com/ru/download/help/download_options.xml
 
-##  autotests (test task)
+## News360.com login form autotests (test task)
 
 ### Getting Started
 
-To run tests you need to install [maven][maven], [java][java], git and [firefox][firefox].
+To run tests you need to install [maven][maven] version 3.1.1 or above, [java][java], git and [firefox][firefox].
 
 To generate Allure Report you should perform following steps:
 
 ```bash
-$ git clone git@github.com:nikitozeg/ifree-test-task.git
+$ git clone git@github.com:nikitozeg/news360-test-task.git
 $ mvn clean test
 $ mvn site
 ```
